@@ -1,0 +1,88 @@
+@import '../_config.scss';
+html, body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.m-supplyexpend {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 10px;
+    height: 570px;    
+    .m-footer {
+        background-color: #fff;
+        height: 500px;
+    }
+}
+.m-dateicon:hover
+{ 
+  cursor: help;
+}
+.ant-table table {
+  text-align: center;
+}
+.ant-table-thead > tr > th {
+  text-align: center;
+}
+.ant-modal-body {
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 30px;
+}
+.atags {
+  color: #fc0;
+}
+
+
+/* use css to set position of modal */
+.vertical-center-modal {
+  text-align: center;
+  // white-space: pre;
+}
+
+.vertical-center-modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  width: 0;
+}
+
+.vertical-center-modal .ant-modal {
+  display: inline-block;
+  vertical-align: middle;
+  top: 0;
+  text-align: left;
+}
+.lingyong-confirm {
+  float: right;
+}
+.m-btn2 {
+  margin-top: 10px;
+  width: 80px;
+}
+.m-btnqx {
+  width: 80px;
+  margin-top: 10px;
+}
+.m-btn3 {
+  margin-top: 10px;
+  width: 80px;
+  margin-left: 10px;
+}
+.m-btnfather {
+  height: 40px;
+}
+/*
+// Use flex which not working in IE
+.vertical-center-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vertical-center-modal .ant-modal {
+  top: 0;
+}
+*/

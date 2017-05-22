@@ -1,0 +1,8 @@
+.ant-layout-content .ant-form.ant-form-inline {
+	.ant-form-item-label {
+	}
+	.ant-select-selection.ant-select-selection--multiple {
+		max-height: 30px;
+		overflow-y: auto;
+	}
+}

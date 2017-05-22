@@ -1,0 +1,15 @@
+{
+	"current": "master",
+	"local": "http://localhost:3001/",
+	"dev": "http://172.16.1.181:8059/",
+	"test": "http://{{Complete the Url}}/",
+	"release": "http://{{Complete the Url}}/",
+	"master": "http://106.14.181.21:8008/",
+	"pageUrl": {
+		"local": "http://localhost:8090/jipei-statementsPages/",
+		"dev": "http://172.16.1.51:8030/build/jipei-statementsPages/",
+		"test": "http://{{Complete the Url}}/build/jipei-statementsPages/",
+		"release": "http://{{Complete the Url}}/build/jipei-statementsPages/",
+		"master": "http://a.jeepei.com/jipei-statementsPages/"
+	}
+}

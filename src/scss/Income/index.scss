@@ -1,0 +1,102 @@
+@import '../_config.scss';
+html, body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.m-dateicon{
+  letter-spacing: 3px;
+
+}
+
+.ant-table table {
+  text-align: center;
+}
+
+.ant-modal-body {
+  .m-btn2 {
+    margin-top: 15px;
+    width: 80px;
+  }
+}
+.m-income {
+  // text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 10px;
+  height: 600px;  
+    .m-table {
+      background-color: #F4F4F4;
+      height: 500px;
+    }
+}
+.ant-table-thead > tr > th {
+  text-align: center;
+}
+.ant-modal-body {
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 30px;
+  line-height: 30px;
+}
+.atags {
+  color: #fc0;
+}
+.m-modals {
+    top: 50%;
+    transform: translate(0, -50%); /*向左向上分别平移自身的一半*/  
+    -webkit-transform: translate(0, -50%);  
+    -moz-transform: translate(0, -50%);  
+}
+
+/* use css to set position of modal */
+.vertical-center-modal {
+  text-align: center;
+  // white-space: pre;
+}
+
+.vertical-center-modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  width: 0;
+}
+
+.vertical-center-modal .ant-modal {
+  display: inline-block;
+  vertical-align: middle;
+  top: 0;
+  text-align: left;
+}
+.lingyong-confirm {
+  float: right;
+}
+.m-btn2 {
+  margin-top: 10px;
+  width: 80px;
+}
+.m-btnqx {
+  width: 80px;
+  margin-top: 10px;
+}
+.m-btn3 {
+  margin-top: 10px;
+  width: 80px;
+  margin-left: 10px;
+}
+.m-btnfather {
+  height: 40px;
+}
+/*
+// Use flex which not working in IE
+.vertical-center-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vertical-center-modal .ant-modal {
+  top: 0;
+}
+*/
